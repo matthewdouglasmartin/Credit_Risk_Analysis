@@ -33,9 +33,9 @@ Financial entities, such as banks and credit card companies, can incur major los
 ### SMOTEEN Over and Under Sampling
 *  Balanced Accuracy Score: 62.4%
 *  Confusion Matrix:
-   *  ![SMOTEEN CM]()
+   *  ![SMOTEEN CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/SMOTEEN_CM.png)
 * Classification Report:
-  * ![SMOTEEN CR]()
+  * ![SMOTEEN CR](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/SMOTEEN_CR.png)
 * Notes: Again, not an ideal accuracy score for this test. Likely to correctly predict low-risk applicants (high precision) but not for high-risk applicants (low precision). More precise with determining high risk applicants (65%) compared to low risk applicants (59%). 
   
 ### Balanced Random Forest Classifier
