@@ -9,49 +9,49 @@ Financial entities, such as banks and credit card companies, can incur major los
 ### Naive Random Oversampling
 *  Balanced Accuracy Score: 63.8%
 *  Confusion Matrix:
-   *  ![]()
+   *  ![Random Oversampling CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/NRO_CM.png)
 * Classification Report:
-  *  ![]()
+  *  ![Random Oversampling CR](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/NRO_CR.png)
 * Notes: A little more than 50% of the time this method and model will be accurate. Likely to correctly predict low-risk applicants (high precision) but not for high-risk applicants (low precision).  Around 61% and 66% likelihood that the test will measure predictions and the predictions are true (high-risk has higher precision).  
 
 ### SMOTE Oversampling
 *  Balanced Accuracy Score: 65.9%
 *  Confusion Matrix:
-   *  ![]()
+   *  ![SMOTE CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/SMOTE_CM.png)
 * Classification Report:
-  * ![]()
+  * ![SMOTE CR](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/SMOTE_CR.png)
 * Notes: The accuracy score is slightly higher with this test, just over 65%. Likely to correctly predict low-risk applicants (high precision) but not for high-risk applicants (low precision). Around 62% and 69% likelihood that the test will measure predictions and the predictions are true (low risk has higher precision). 
 
 ### ClusterCentroids Undersampling
 *  Balanced Accuracy Score: 54.7%
 *  Confusion Matrix:
-   *  ![]()
+   *  ![ClusterCentroids CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/CLUST_CM.png)
 * Classification Report:
-  * ![]()
+  * ![CLusterCentroids CR](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/CLUST_CR.png)
 * Notes: Lowest quality accuracy rate of all tests. Likely to correctly predict low-risk applicants (high precision) but not for high-risk applicants (low precision). More precise with determining high risk applicants (68%) compared to low risk applicants (41%).  This is the one positive aspect of this test, but not enough to outperform all other tests.
 
 ### SMOTEEN Over and Under Sampling
 *  Balanced Accuracy Score: 62.4%
 *  Confusion Matrix:
-   *  ![]()
+   *  ![SMOTEEN CM]()
 * Classification Report:
-  * ![]()
+  * ![SMOTEEN CR]()
 * Notes: Again, not an ideal accuracy score for this test. Likely to correctly predict low-risk applicants (high precision) but not for high-risk applicants (low precision). More precise with determining high risk applicants (65%) compared to low risk applicants (59%). 
   
 ### Balanced Random Forest Classifier
 *  Balanced Accuracy Score: 78.7%
 *  Confusion Matrix:
-   *  ![]()
+   *  ![BRFC CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/BRFC_CM.png)
 * Classification Report:
-  *  ![]()
+  *  ![BRFC CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/BRFC_CR.png)
 * Notes: The accuracy score for this test is not perfect but it is good, any better and there might be concerns of overfitting model to the data.  Likely to correctly predict low-risk applicants (high precision) but not for high-risk applicants (low precision). This model is more precise with identifying low risk applicants (91%) compared to high risk applicants (67%).  The precision for high risk applicants is not horrible, nor is it ideal. 
   
 ### Easy Ensemble AdaBoost Classifier
 *  Balanced Accuracy Score: 92.5%
 *  Confusion Matrix:
-   *  ![]()
+   *  ![EEC CM](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/EEC_CM.png)
 * Classification Report:
-  *  ![]()
+  *  ![EEC CR](https://github.com/matthewdouglasmartin/Credit_Risk_Analysis/blob/main/Resources/EEC_CR.png)
 * Notes: This model and test has the highest accuracy of all six models for machine learning.  In addition its sensitivity for both types of applicants is over 90%.  Almost seems too good too be true and needs to be adjusted over concerns of overfitting.
 
 ## Summary:
